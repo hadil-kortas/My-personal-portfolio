@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 
 import { Canvas } from "@react-three/fiber";
 
@@ -60,16 +60,16 @@ const  ComputersCanvas = () => {
     }
 
     
-  }, [])
+  }, []);
 
   
   return (
     <Canvas
-    frameloop="demand" 
-    shadows
-    dpr={[1, 2]}
-    camera={{ position: [20, 3, 5], fov: 25}}
-    gl={{ preserveDrawingBuffer: true}}
+      frameloop="demand" 
+      shadows
+      dpr={[1, 2]}
+      camera={{ position: [20, 3, 5], fov: 25}}
+      gl={{ preserveDrawingBuffer: true}}
     >
 
       <Suspense fallback={<CanvasLoader />}>
@@ -84,7 +84,7 @@ const  ComputersCanvas = () => {
       <Preload all />
 
     </Canvas>
-  )
-}
+  );
+};
 
 export default ComputersCanvas;
