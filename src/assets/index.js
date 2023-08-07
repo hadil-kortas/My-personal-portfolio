@@ -4,6 +4,10 @@ import frontend from"./frontend.png";
 import creator from "./creator.png";
 import web from "./web.png";
 import github from "./github.png";
+import facebook from "./facebook1.png";
+import github1 from "./github1.png";
+import linkedin from "./linkedin1.png";
+import instagram from "./instagram.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -34,6 +38,10 @@ export {
   logo,
   backend,
   frontend,
+  facebook,
+  instagram,
+  github1,
+  linkedin,
   creator,
   web,
   github,

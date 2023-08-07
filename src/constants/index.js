@@ -22,6 +22,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    facebook,
+    instagram,
+    github1,
+    linkedin
   } from "../assets";
   
   export const navLinks = [
@@ -151,33 +155,6 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
       name: "Car Rent",
@@ -243,5 +220,37 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const contacts = [
+    
+    {
+      name: "linkedin",
+      image: linkedin,
+      source_link:"https://www.linkedin.com/in/kortas-hadil-a87834210/"
+    },
+    {
+      name: "github",
+      image: github1,
+      source_link:"https://www.linkedin.com/in/kortas-hadil-a87834210/"
+    },
+    {
+      name: "facebook",
+      image: facebook,
+      source_link:"https://www.facebook.com/hadoula.kortas.3/"
+    },
+    {
+      name: "instagram",
+      image: instagram,
+      source_link:"https://www.instagram.com/hadil.kortas/"
+    }
+
+
+
+    
+
+
+
+
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects, contacts };
