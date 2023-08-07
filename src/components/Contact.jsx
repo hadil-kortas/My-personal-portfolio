@@ -16,37 +16,28 @@ import { fadeIn, textVariant } from '../utils/motion';
 const ContactCard = ({index ,name, image, source_link}) =>
 {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75 )}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 400
-        }}
-        
-        
-        >
-        
-          <div className="w-10 h-10 object-contain rounded-full m-3">
+    <motion.div variants={fadeIn("up", "spring", index * 0.75, 0.75 )}> 
+    <div onClick={() => window.open(source_link, "_blank")}>   
+      <Tilt className="w-10 h-10 object-contain rounded-full m-3 cursor-pointer">
             <img 
               src={image}
               alt={name}
               className="w-10 h-10 object-contain"
             />
 
-          </div>
-        </Tilt>
-      </motion.div>
+      </Tilt>
+    </div>  
+    </motion.div>
   )
 }
 
 const Contact = () => {
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:mt-2 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn('left', "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="flex-[0.50] bg-black-100 p-8 rounded-2xl"
         >
 
           <p className={styles.sectionSubText}>Get in touch</p>

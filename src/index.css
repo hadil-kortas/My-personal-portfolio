@@ -33,14 +33,28 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+.pink-gradient {
+  background: #fc6767;
+  background: linear-gradient(-90deg, #fc6767 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #fc6767 0%,
     rgba(60, 51, 80, 0) 100%
   );
+}
+
+.button {
+  margin-top: 200px;
+  background-color: #fc6767;
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 10rem;
+  height: 4rem;
+  
+  
+  
 }
 
 .green-pink-gradient {

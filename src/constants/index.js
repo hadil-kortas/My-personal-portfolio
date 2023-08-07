@@ -231,7 +231,7 @@ import {
     {
       name: "github",
       image: github1,
-      source_link:"https://www.linkedin.com/in/kortas-hadil-a87834210/"
+      source_link:"https://github.com/hadil-kortas"
     },
     {
       name: "facebook",
