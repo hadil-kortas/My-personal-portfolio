@@ -8,6 +8,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 import { SectionWrapper } from '../hoc';
 
+// eslint-disable-next-line react/prop-types
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -17,6 +18,7 @@ const ServiceCard = ({ index, title, icon }) => {
         shadow-card'
         >
           <div 
+            // eslint-disable-next-line react/no-unknown-property
             options={{
               max: 45,
               scale: 1,

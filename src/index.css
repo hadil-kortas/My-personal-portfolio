@@ -18,6 +18,9 @@
   padding-bottom: 100px;
   display: block;
 }
+.bg-primary {
+  background-color:rgb(41, 1, 21)
+}
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
@@ -55,6 +58,10 @@
   
   
   
+}
+
+.bg-tertiary {
+  background-color: rgb(66, 5, 36)
 }
 
 .green-pink-gradient {

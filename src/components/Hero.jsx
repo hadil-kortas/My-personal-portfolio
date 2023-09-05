@@ -6,7 +6,7 @@ import { Tilt } from 'react-tilt';
 
 import { ComputersCanvas } from './canvas';
 
-const PDF_FILE_URL = 'http://localhost:5173/CV.pdf'
+const PDF_FILE_URL = 'http://localhost:5173/Resume.pdf'
 
 const Hero = () => {
   const downloadFileAtURL=(url)=>{
