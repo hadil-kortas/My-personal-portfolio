@@ -12,11 +12,10 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+  figma,
+    springboot,
     docker,
     meta,
-    starbucks,
-    tesla,
     shopify,
     carrent,
     jobit,
@@ -25,7 +24,14 @@ import {
     facebook,
     instagram,
     github1,
-    linkedin
+  linkedin,
+  prestige,
+  edidact,
+  afia,
+  yellowpage,
+  training,
+  makeup
+    
   } from "../assets";
   
   export const navLinks = [
@@ -71,18 +77,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
+    /*{
       name: "TypeScript",
       icon: typescript,
-    },
+    },*/
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
+    /*{
       name: "Redux Toolkit",
       icon: redux,
-    },
+    },*/
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -107,117 +113,127 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
+    /*{
+      name: "springboot",
+      icon: springboot,
+    }*/
+    /*{
       name: "docker",
       icon: docker,
-    },
+    },*/
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Full stack Developer",
+      company_name: "Prestige Formation & Consulting",
+      icon: prestige,
+      iconBg: "rgb(15, 2, 25)",
+      date: "Jun 2023 - Sep 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing web application of an HR audit application aimed at measure and evaluate the company's compliance with regulations and internal human resource policies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "MERN Stack, Figma, Trello, Postman, VisualStudio"
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "Edidact",
+      icon: edidact,
+      iconBg: "rgb(15, 2, 25)",
+      date: "Jun 2022 - Sep 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participation in the web development of the Edidact platform. Edidact, the learning platform that allows children aged 4 to 15 years to review all subjects taught at the Swiss Romand School in a fun, autonomous and motivating way for better results.",
+        "Collaborating with cross-functional teams including designers, and other developers to create high-quality products.",
+        "Laravel, PHP, Bootstrap, MySQL"
+      
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Backend Developer",
+      company_name: "AfiaTech",
+      icon: afia,
+      iconBg: "rgb(15, 2, 25)",
+      date: "Feb 2021 - Jun 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Development of a web-based dental office application to facilitate the connection between the doctor and his staff and to help minimize the efforts of the doctor, staff and patients by reducing the time.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "SpringBoot, Java, API REST, Angular JS"
       ],
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+
+      name: "Yellow Page",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search and find local businesses and services quickly and efficiently.",
       tags: [
         {
-          name: "react",
+          name: "nodejs",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "expressjs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "reactjs",
           color: "blue-text-gradient",
         },
+        
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: yellowpage,
+      source_code_link: "https://github.com/hadil-kortas/yellow_page",
     },
     {
-      name: "Job IT",
+      name: "Training Center",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application  designed to streamline the process of managing training programs, trainers, and student registrations.",
       tags: [
         {
-          name: "react",
+          name: "php",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "symfony5",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "twig",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mysql",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: training,
+      source_code_link: "https://github.com/hadil-kortas/Gestion-des-formations",
     },
     {
-      name: "Trip Guide",
+      name: "Beauty Lover",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A mobile application based on Android for efficiently organizing and managing your makeup products and beauty essentials.",
       tags: [
         {
-          name: "nextjs",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "sqlite",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: makeup,
+      source_code_link: "https://github.com/hadil-kortas/Makeup-Storage",
     },
   ];
 

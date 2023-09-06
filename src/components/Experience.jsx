@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react-refresh/only-export-components */
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 
 import { motion } from "framer-motion";
@@ -13,8 +15,8 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => (
 
   <VerticalTimelineElement
-  contentStyle={{ background: '#1d1836', color: '#fff'}}
-  contentArrowStyle={{ borderRight: '7px solid #232631'}}
+  contentStyle={{ background: 'rgb(25, 1, 21)', color: '#fff'}}
+  contentArrowStyle={{ borderRight: '8px solid rgb(15, 2, 25)'}}
 
   date={experience.date}
   iconStyle={{ background: experience.iconBg }}
