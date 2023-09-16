@@ -40,6 +40,8 @@ import tripguide from "./tripguide.png";
 import yellowpage from "./yellowpage.png";
 import training from "./training.png";
 import makeup from "./makeup.png";
+import thread from "./thread.png";
+import threads from "./threads.png";
 
 export {
   logo,
@@ -80,5 +82,7 @@ export {
   afia,
   yellowpage,
   training,
-  makeup
+  makeup,
+  thread,
+  threads
 };

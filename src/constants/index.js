@@ -30,7 +30,9 @@ import {
   afia,
   yellowpage,
   training,
-  makeup
+  makeup,
+  thread,
+  threads
     
   } from "../assets";
   
@@ -77,10 +79,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    /*{
+    {
       name: "TypeScript",
       icon: typescript,
-    },*/
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -231,10 +233,37 @@ import {
           name: "sqlite",
           color: "green-text-gradient",
         },
+        
       ],
       image: makeup,
       source_code_link: "https://github.com/hadil-kortas/Makeup-Storage",
     },
+    {
+      name: "Threads",
+      description:
+        "A modern and versatile web communication application designed to streamline and enhance conversations among individuals organizations. ",
+      tags: [
+        {
+          name: "nextjs",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+      ],
+      image: thread,
+      source_code_link: "https://github.com/hadil-kortas/threads",
+    },
+    
   ];
 
   const contacts = [
