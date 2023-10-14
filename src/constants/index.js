@@ -12,7 +12,7 @@ import {
     nodejs,
     mongodb,
     git,
-  figma,
+    figma,
     springboot,
     docker,
     meta,
@@ -24,15 +24,15 @@ import {
     facebook,
     instagram,
     github1,
-  linkedin,
-  prestige,
-  edidact,
-  afia,
-  yellowpage,
-  training,
-  makeup,
-  thread,
-  threads
+    linkedin,
+    prestige,
+    edidact,
+    afia,
+    yellowpage,
+    training,
+    makeup,
+    thread,
+    tasty,
     
   } from "../assets";
   
@@ -119,10 +119,10 @@ import {
       name: "springboot",
       icon: springboot,
     }*/
-    /*{
+    {
       name: "docker",
       icon: docker,
-    },*/
+    },
   ];
   
   const experiences = [
@@ -244,7 +244,7 @@ import {
         "A modern and versatile web communication application designed to streamline and enhance conversations among individuals organizations. ",
       tags: [
         {
-          name: "nextjs",
+          name: "nextjs13",
           color: "violet-text-gradient",
         },
         {
@@ -252,7 +252,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "react",
+          name: "clerk",
           color: "blue-text-gradient",
         },
         {
@@ -263,6 +263,30 @@ import {
       image: thread,
       source_code_link: "https://github.com/hadil-kortas/threads",
     },
+    {
+      name: "TastySwift",
+      description: "A web-based food delivery application and a digital platform that enables users to browse, select, and order food from local restaurants and have it delivered to their doorstep ",
+      tags: [
+        {
+          name: "nextjs13",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "green-text-gradient",
+        },
+      ],
+      image: tasty,
+      source_code_link: "https://github.com/hadil-kortas/tastyswift",
+    }
     
   ];
 

@@ -42,6 +42,7 @@ import training from "./training.png";
 import makeup from "./makeup.png";
 import thread from "./thread.png";
 import threads from "./threads.png";
+import tasty from "./tasty.png";
 
 export {
   logo,
@@ -84,5 +85,6 @@ export {
   training,
   makeup,
   thread,
-  threads
+  threads,
+  tasty
 };
