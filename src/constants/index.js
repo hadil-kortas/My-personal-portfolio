@@ -15,6 +15,7 @@ import {
     figma,
     springboot,
     docker,
+    jenkins,
     meta,
     shopify,
     carrent,
@@ -122,6 +123,10 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "jenkins",
+      icon: jenkins,
     },
   ];
   
