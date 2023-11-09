@@ -115,10 +115,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    /*{
+    {
       name: "springboot",
       icon: springboot,
-    }*/
+    },
     {
       name: "docker",
       icon: docker,
