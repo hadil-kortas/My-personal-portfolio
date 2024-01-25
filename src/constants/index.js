@@ -34,6 +34,10 @@ import {
     makeup,
     thread,
     tasty,
+    task,
+    kubernetes,
+    prometheus,
+    grafana,
     
   } from "../assets";
   
@@ -50,6 +54,7 @@ import {
       id: "contact",
       title: "Contact",
     },
+
   ];
   
   const services = [
@@ -128,6 +133,19 @@ import {
       name: "jenkins",
       icon: jenkins,
     },
+
+      /*{
+        name: "kubernetes",
+        icon: kubernetes,
+      },
+      {
+        name: "prometheus",
+        icon: prometheus,
+      },
+      {
+        name: "grafana",
+        icon: grafana,
+      },*/
   ];
   
   const experiences = [
@@ -291,6 +309,31 @@ import {
       ],
       image: tasty,
       source_code_link: "https://github.com/hadil-kortas/tastyswift",
+    },
+
+    {
+      name: "TaskManagement",
+      description: "A task management dashboard that enables participants and admins to manage tasks, task status and task assignment",
+      tags: [
+        {
+          name: "spring boot",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "thymleaf",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "thailwind css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: task,
+      source_code_link: "https://github.com/hadil-kortas/taskmanagement",
     }
     
   ];
