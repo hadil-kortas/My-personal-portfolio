@@ -26,6 +26,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import springboot from "./tech/spring.png";
 import jenkins from "./tech/jenkins.png";
+import kubernetes from "./tech/kubernetes.png";
+import prometheus from "./tech/Prometheus.png";
+import grafana from "./tech/Grafana.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -44,6 +47,8 @@ import makeup from "./makeup.png";
 import thread from "./thread.png";
 import threads from "./threads.png";
 import tasty from "./tasty.png";
+import task from "./task.png";
+
 
 export {
   logo,
@@ -88,5 +93,9 @@ export {
   makeup,
   thread,
   threads,
-  tasty
+  tasty,
+  task,
+  kubernetes,
+  prometheus,
+  grafana,
 };
