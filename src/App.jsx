@@ -11,7 +11,6 @@ const App = () => {
         <Navbar />
         <div className="relative z-0">
           <Hero />
-          <StarsCanvas />
         </div>
         
       </div>
@@ -21,7 +20,6 @@ const App = () => {
       <Works />
       <div className="relative z-0>" >
         <Contact />
-        <StarsCanvas />
       </div>
 
     </div>

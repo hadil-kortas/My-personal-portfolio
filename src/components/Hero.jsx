@@ -4,6 +4,9 @@ import { Tilt } from 'react-tilt';
 import { picofme } from '../assets';
 import { Typewriter } from 'react-simple-typewriter';
 import { useTranslation } from 'react-i18next';
+import { useInView } from 'react-intersection-observer';
+import StarsCanvas from './canvas/Stars';
+
 
 
 const PDF_FILE_URL = '/Resume.pdf';
@@ -24,13 +27,12 @@ const Hero = () => {
 
     });
   };
+  const { ref, inView } = useInView({ threshold: 0.1 });
   
   const { t, i18n } = useTranslation(); 
-  const lang = i18n.language; 
-  const isBig = ['fr','nl'].includes(lang);
-
   return (
-    <section className="relative w-full h-screen mx-auto mt-8">
+    <section ref={ref} className="relative w-full h-screen mx-auto">
+      {inView && <StarsCanvas />}
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-10`}>
         {/* ───────────── Timeline dot & line ───────────── */}
         <div className="flex flex-col justify-center items-center mt-5">

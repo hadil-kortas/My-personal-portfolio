@@ -11,7 +11,9 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { contacts } from "../constants";
 import { Tilt } from "react-tilt";
-import { fadeIn, textVariant } from '../utils/motion';
+import { fadeIn } from '../utils/motion';
+import { useInView } from 'react-intersection-observer';
+import StarsCanvas from './canvas/Stars';
 
 
 
@@ -34,35 +36,40 @@ const ContactCard = ({index ,name, image, source_link}) =>
 }
 
 const Contact = () => {
+  const { ref, inView } = useInView({ threshold: 0.1 });
+  {
+    return (
+      <div ref={ref} className="xl:mt-2 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+        {inView && <StarsCanvas />}
+        <motion.div
+          variants={slideIn('left', "tween", 0.2, 1)}
+          className="flex-[0.50] bg-black-100 p-8 rounded-2xl"
+          >
 
-  return (
-    <div className="xl:mt-2 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-      <motion.div
-        variants={slideIn('left', "tween", 0.2, 1)}
-        className="flex-[0.50] bg-black-100 p-8 rounded-2xl"
-        >
+            <p className={styles.sectionSubText}>Get in touch</p>
+            <h3 className={styles.sectionHeadText}>Contact.</h3>
+            {contacts.map((contact, index) => (
+              <ContactCard 
+              key={`contact-${index}`}
+              index={index}
+              {...contact}
+              />
+            ))}
 
-          <p className={styles.sectionSubText}>Get in touch</p>
-          <h3 className={styles.sectionHeadText}>Contact.</h3>
-          {contacts.map((contact, index) => (
-            <ContactCard 
-            key={`contact-${index}`}
-            index={index}
-            {...contact}
-            />
-          ))}
+        </motion.div>
+        <motion.div
+          variants={slideIn('right', "tween", 0.2, 1)}
+          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+          >
+            <EarthCanvas />
+          
+        </motion.div>
 
-      </motion.div>
-      <motion.div
-        variants={slideIn('right', "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-        >
-          <EarthCanvas />
-        
-      </motion.div>
+      </div>
+    )
+  }
 
-    </div>
-  )
+  
 }
 
 export default SectionWrapper(Contact, "contact")
