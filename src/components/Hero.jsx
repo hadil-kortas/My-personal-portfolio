@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-
-
 import { styles } from '../styles';
 import { Tilt } from 'react-tilt';
+import { picofme } from '../assets';
+import { Typewriter } from 'react-simple-typewriter';
+import { useTranslation } from 'react-i18next';
 
-import { ComputersCanvas } from './canvas';
 
 const PDF_FILE_URL = '/Resume.pdf';
 
@@ -23,55 +23,77 @@ const Hero = () => {
       aTag.remove();
 
     });
-    
-
   };
   
+  const { t, i18n } = useTranslation(); 
+  const lang = i18n.language; 
+  const isBig = ['fr','nl'].includes(lang);
 
   return (
-    <section className='relative w-full h-screen mx-auto'>
-      <div className={'${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5'}>
-        <div className='flex flex-col justify-center items-center mt-5'>         
-          <div className='w-5 h-5 rounded-full bg-[#fc6767]'/>
-          <div className='w-1 sm:h-80 h-40 pink-gradient'/>        
+    <section className="relative w-full h-screen mx-auto mt-8">
+      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-10`}>
+        {/* ───────────── Timeline dot & line ───────────── */}
+        <div className="flex flex-col justify-center items-center mt-5">
+          <div className="w-5 h-5 rounded-full bg-[#fc6767]" />
+          <div className="w-1 sm:h-80 h-40 pink-gradient" />
         </div>
-      <div>
-          <h1 className={`${styles.heroHeadText}text-white`}>Hi, I'm <span className='text-[#ec008c]'>Hadil Kortas</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop and design user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
-          <Tilt className='button'>
-    
-              <button onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}>Download CV</button>
-            
-          </Tilt>
-        </div> 
-      </div>
-      
-  
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center itms-center'> 
-      
-      <a href='#about'>
-        <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justift-center items-start p-2'>
-          <motion.dev animate={{
-            y: [0, 24, 0]
-          }}
-          transition ={{
-            duration: 1.5,
-            repeat: Infinity,
-            repeatType: 'loop'
-          }}
-          className="w-3 h-3 rounded-full bg-secondary mb-1"
+        {/* ───────────── Left column: Intro text ───────────── */}
+        <div>
+         <h1 className={`${styles.heroHeadText} text-white`}>
+            {t('hey')}{' '}
+            <span className="text-[#ec008c]">
+              <Typewriter
+                words={['Hadil Kortas']}
+                loop={false}
+                cursor
+                typeSpeed={200}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            {t('Description')}
+          </p>
+
+          <Tilt className={`button ${['fr','nl'].includes(i18n.language) ? 'button--wide' : ''}`}>
+            <button
+              onClick={() => downloadFileAtURL(PDF_FILE_URL)}
+            >
+              {t('Download-cv')}
+            </button>
+          </Tilt>
+        </div>
+
+        {/* ───────────── Right column: Image & button ───────────── */}
+        <div>
+          <img
+            src={picofme}
+            alt="Hadil Kortas"
+            className="
+              
+              md:w-[100rem]
+              ml-20
+            "
           />
 
         </div>
 
-      </a>
-
       </div>
 
+      {/* ───────────── Scroll-indicator ───────────── */}
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
+              animate={{ y: [0, 24, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity, repeatType: 'loop' }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+          </div>
+        </a>
+      </div>
     </section>
   )
 }

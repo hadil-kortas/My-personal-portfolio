@@ -2,6 +2,7 @@ import {
     backend,
     frontend,
     web,
+    image,
     javascript,
     typescript,
     html,
@@ -27,6 +28,7 @@ import {
     github1,
     linkedin,
     prestige,
+    klerq,
     edidact,
     afia,
     yellowpage,
@@ -59,12 +61,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "UI/UX Designer",
+      icon: backend,
+    },
+    {
+      title: "Full Stack Developer",
       icon: web,
     },
     {
       title: "Backend Developer",
-      icon: backend,
+      icon: image,
     },
     {
       title: "Frontend Developer",
@@ -149,6 +155,22 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Full stack Developer",
+      company_name: "KLERQ",  
+      icon: klerq,
+      iconBg: "rgb(15, 2, 25)",
+      date: "Oct 2024 - present",
+      points: [
+        "Frontend development on KLERQ SAAS tooling.",
+        "Built robust backend services, improving data security and integrity.",
+        "Designing user-friendly interfaces, enhancing user satisfaction.",
+        "Launched AI-driven content-processing features-automatic matter-title generation from matter content, summarization, improvement, translation, and anonymization of matter content.",
+        "Managing priorities, tasks and incoming bugs",
+        "Integrated CI/CD pipelines and standardized Git workflows (GitLab Actions, automated testing), enabling weekly deployment cycles and reducing manual release overhead.",
+        "React JS, Next JS, Nest JS, Tailwind CSS, Docker, Figma, GitLab, Postman, VisualStudio"
+      ],
+    },
     {
       title: "Full stack Developer",
       company_name: "Prestige Formation & Consulting",

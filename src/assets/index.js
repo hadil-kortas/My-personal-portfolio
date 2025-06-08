@@ -1,8 +1,11 @@
 import logo from "./logo.png";
+import profile from "./profile.png";
+import picofme from "./picofme.png";
 import backend from "./backend.png";
 import frontend from"./frontend.png";
 import creator from "./creator.png";
 import web from "./web.png";
+import image from "./image.png";
 import github from "./github.png";
 import facebook from "./facebook1.png";
 import github1 from "./github1.png";
@@ -37,6 +40,7 @@ import tesla from "./company/tesla.png";
 import prestige from "./company/Prestige.png";
 import edidact from "./company/Edidact.png";
 import afia from "./company/Afia.png";
+import klerq from "./company/Klerq.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,6 +56,8 @@ import task from "./task.png";
 
 export {
   logo,
+  profile,
+  picofme,
   backend,
   frontend,
   facebook,
@@ -60,6 +66,7 @@ export {
   linkedin,
   creator,
   web,
+  image,
   github,
   menu,
   close,
@@ -86,6 +93,7 @@ export {
   jobit,
   tripguide,
   prestige,
+  klerq,
   edidact,
   afia,
   yellowpage,

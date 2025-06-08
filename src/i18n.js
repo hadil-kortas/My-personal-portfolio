@@ -1,30 +1,29 @@
+// src/i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+import en from './../src/locales/en/common.json';
+import fr from './../src/locales/fr/common.json';
+import nl from './../src/locales/nl/common.json';
 
 i18n
-  .use(initReactI18next)
-  .use(LanguageDetector)
+  .use(initReactI18next)         // passes i18n down to react-i18next
+  .use(LanguageDetector)         // auto-detects language via localStorage/browser
   .init({
-    lng: 'en', // Default language
+    fallbackLng: 'en',           // use English if detection fails
+    supportedLngs: ['en','fr','nl'],
     resources: {
-      en: {
-        translation: {
-          // English translations
-        },
-      },
-      fr: {
-        translation: {
-              // French translations
-              FullStackWebDeveloper : "Développeur Web FullStack",
-          
-        },
-      },
-      // Add more languages as needed
+      en: { common: en },
+      fr: { common: fr },
+      nl: { common: nl },
     },
-    interpolation: {
-      escapeValue: false, // React already safely escapes values
+    ns: ['common'],              // your “namespace” keys
+    defaultNS: 'common',
+    interpolation: { escapeValue: false },
+    detection: {
+      order: ['localStorage','navigator'],
+      caches: ['localStorage'],
     },
   });
 

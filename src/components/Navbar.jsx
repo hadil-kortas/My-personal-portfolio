@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { menu, close } from '../assets';
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();  
   const [ active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState("en"); // Default language
@@ -22,6 +22,7 @@ const Navbar = () => {
   const languages = [
     { code: "en", label: "English", flag: "🇺🇸" },
     { code: "fr", label: "Français", flag: "🇫🇷" },
+    { code: "nl", label: "Dutch", flag: "🇳🇱" },
     // Add more languages as needed
   ];
 
@@ -49,10 +50,9 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
             >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <div>
               <p className='text-white text-[18px] font-bold cursor-pointer flex'> Hadil Kortas &nbsp; <span
-            className='sm:block hidden'>| FullStack Web Developer </span>
+            className='sm:block hidden'>| {t('FullStack Web Developer')} </span>
             </p>
             {/*<p className='text-white text-[13px]'>kortashadil27@gmail.com</p>*/}
             
@@ -85,7 +85,7 @@ const Navbar = () => {
             <div
               className={`${
                 toggle ? "block" : "hidden"
-              } absolute top-0 right-0 mt-8 bg-white border rounded-md shadow-lg`}
+              } absolute top-0 -right-14 mt-8 bg-white border rounded-md shadow-lg w-32`}
             >
               {languages.map((lang) => (
                 <div
