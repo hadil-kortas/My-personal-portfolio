@@ -6,7 +6,7 @@ const htmlescaper = require("html-escaper");
 const i18nNextConfig = {
 	i18n: {
 		defaultLocale: "en",
-		locales: ["en", "fr", "nl"],
+		locales: ["en", "fr", "nl", "de"],
 	},
 	fallbackLng: "en",
 

@@ -1,0 +1,89 @@
+{
+  "FullStack Web Developer": "Fullstack-Webentwickler",
+  "about":                   "Über mich",
+  "work":                    "Arbeit",
+  "contact":                 "Kontakt",
+  "hey":                     "Hallo, ich bin",
+  "Description":             "Ich entwickle und gestalte Benutzeroberflächen und Webanwendungen mit Fokus auf responsive, barrierefreie und leistungsstarke Erlebnisse.",
+  "Download-cv":             "Lebenslauf herunterladen",
+  "Introduction":            "Einleitung",
+  "Overview":                "Überblick",
+  "Overview Description":    "Ich bin ein leidenschaftlicher Full-Stack-Webentwickler, der sich der Umsetzung innovativer Ideen verschrieben hat. Meine Reise begann mit einer soliden Grundlage in der Informatik und echtem Interesse daran, nahtlose Benutzererlebnisse zu schaffen. Durch Schulprojekte und wertvolle Praktika habe ich praktische Erfahrungen in Front-End- und Back-End-Technologien gesammelt. Ich genieße die Herausforderung, komplexe Probleme in elegante Lösungen zu verwandeln, und meine Kreativität sowie mein Problemlösungsvermögen machen mich in der sich ständig wandelnden Welt der Webentwicklung zu einem gefragten Profi.",
+  "UI/UX Designer":          "UI/UX-Designer",
+  "Full Stack Developer":    "Full-Stack-Entwickler",
+  "Backend Developer":       "Backend-Entwickler",
+  "Frontend Developer":      "Frontend-Entwickler",
+  "What I have done so far": "Was ich bisher erreicht habe",
+  "Work Experience":         "Berufserfahrung",
+  "experiences": {
+    "klerq": {
+      "title": "Full-Stack-Entwickler",
+      "points": [
+        "Front-End-Entwicklung der KLERQ SaaS-Tools.",
+        "Entwicklung robuster Backend-Services zur Verbesserung von Datensicherheit und Datenintegrität.",
+        "Entwurf benutzerfreundlicher Oberflächen zur Steigerung der Benutzerzufriedenheit.",
+        "Einführung KI-gesteuerter Content-Processing-Funktionen – automatische Generierung von Vorgangstiteln, Zusammenfassung, Verbesserung, Übersetzung und Anonymisierung von Inhalten.",
+        "Verwaltung von Prioritäten, Aufgaben und eingehenden Fehlern.",
+        "Integration von CI/CD-Pipelines und Standardisierung von Git-Workflows (GitLab Actions, automatisierte Tests), wodurch wöchentliche Deployment-Zyklen ermöglicht und manueller Aufwand reduziert werden.",
+        "React JS, Next JS, Nest JS, Tailwind CSS, Docker, Figma, GitLab, Postman, Visual Studio"
+      ]
+    },
+    "prestige": {
+      "title": "Full-Stack-Entwickler",
+      "points": [
+        "Entwicklung einer Webanwendung für ein HR-Audit-System zur Messung und Bewertung der Einhaltung gesetzlicher Vorschriften und interner Personalrichtlinien.",
+        "Implementierung eines responsiven Designs und Sicherstellung der Browserkompatibilität.",
+        "Teilnahme an Code-Reviews und Bereitstellung konstruktiver Rückmeldungen für andere Entwickler.",
+        "MERN-Stack, Figma, Trello, Postman, Visual Studio"
+      ]
+    },
+    "edidact": {
+      "title": "Web-Entwickler",
+      "points": [
+        "Mitwirkung an der Webentwicklung der Edidact-Plattform, einer Lernplattform, die Kindern im Alter von 4 bis 15 Jahren ermöglicht, alle an der französischsprachigen Schule in der Romandie unterrichteten Fächer spielerisch, selbstständig und motivierend zu wiederholen, um bessere Ergebnisse zu erzielen.",
+        "Zusammenarbeit mit funktionsübergreifenden Teams, darunter Designer und andere Entwickler, zur Erstellung hochwertiger Produkte.",
+        "Laravel, PHP, Bootstrap, MySQL"
+      ]
+    },
+    "afia": {
+      "title": "Backend-Entwickler",
+      "points": [
+        "Entwicklung einer webbasierten Zahnarztpraxis-Anwendung zur Verbesserung der Verbindung zwischen Arzt und Personal und zur Verringerung des Zeitaufwands für Arzt, Personal und Patienten.",
+        "Teilnahme an Code-Reviews und Bereitstellung konstruktiver Rückmeldungen für andere Entwickler.",
+        "SpringBoot, Java, REST-API, Angular JS"
+      ]
+    }
+  },
+  "present":            "heute",
+  "My Work":            "Meine Arbeit",
+  "Projects":           "Projekte",
+  "Project-introduction":"Die folgenden Projekte zeigen meine Fähigkeiten und Erfahrungen anhand von realen Beispielen meiner Arbeit. Jedes Projekt wird kurz beschrieben und enthält Links zu Code-Repositories und Live-Demos. Sie spiegeln meine Fähigkeit wider, komplexe Probleme zu lösen, mit verschiedenen Technologien zu arbeiten und Projekte effektiv zu verwalten.",
+  "projects": {
+    "yellowPage": {
+      "name":        "Gelbe Seiten",
+      "description": "Webbasierte Plattform, die es Benutzern ermöglicht, schnell und effizient lokale Unternehmen und Dienstleistungen zu suchen und zu finden."
+    },
+    "trainingCenter": {
+      "name":        "Trainingszentrum",
+      "description": "Webanwendung, die den Prozess zur Verwaltung von Schulungsprogrammen, Trainern und Teilnehmeranmeldungen optimiert."
+    },
+    "beautyLover": {
+      "name":        "Beauty Lover",
+      "description": "Eine Android-App zur effizienten Organisation und Verwaltung Ihrer Make-up-Produkte und Beauty-Essentials."
+    },
+    "threads": {
+      "name":        "Threads",
+      "description": "Eine moderne und vielseitige Web-Kommunikationsanwendung, die Gespräche zwischen Einzelpersonen und Organisationen optimiert und verbessert."
+    },
+    "tastySwift": {
+      "name":        "TastySwift",
+      "description": "Eine webbasierte Essenslieferungsanwendung und digitale Plattform, die es Benutzern ermöglicht, Speisen lokaler Restaurants zu durchsuchen, auszuwählen und zu bestellen und diese an ihre Haustür liefern zu lassen."
+    },
+    "taskManagement": {
+      "name":        "Aufgabenverwaltung",
+      "description": "Ein Task-Management-Dashboard, das Teilnehmern und Administratoren ermöglicht, Aufgaben, Aufgabenstatus und Aufgabenverteilung zu verwalten."
+    }
+  },
+  "Get in touch": "Kontakt aufnehmen",
+  "Contact":      "Kontakt"
+}

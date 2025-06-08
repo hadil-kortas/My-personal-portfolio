@@ -22,6 +22,7 @@ const Navbar = () => {
     { code: "en", label: "English", flag: "🇺🇸" },
     { code: "fr", label: "Français", flag: "🇫🇷" },
     { code: "nl", label: "Dutch", flag: "🇳🇱" },
+    { code: "de", label: "German", flag: "🇩🇪" },
   ];
 
   useEffect(() => {

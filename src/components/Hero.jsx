@@ -59,7 +59,9 @@ const Hero = () => {
             {t('Description')}
           </p>
 
-          <Tilt className={`button ${['fr','nl'].includes(i18n.language) ? 'button--wide' : ''}`}>
+          <Tilt className={`button 
+            ${['fr','nl'].includes(i18n.language) ? 'button--wide' : ''} 
+            ${i18n.language === 'de'              ? 'button--xwide': ''}`}>
             <button
               onClick={() => downloadFileAtURL(PDF_FILE_URL)}
             >

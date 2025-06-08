@@ -60,6 +60,11 @@
   width: 12rem;
 }
 
+.button--xwide {
+  width: 16rem;
+  white-space: nowrap;
+}
+
 .bg-tertiary {
   background-color: rgb(66, 5, 36)
 }
