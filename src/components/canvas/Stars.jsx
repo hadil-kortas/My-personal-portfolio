@@ -33,7 +33,8 @@ const StarsCanvas = () => {
    useEffect(() => {
     return () => {
       if (glRef.current) {
-        const ext = glRef.current.getContext().getExtension('WEBGL_lose_context');
+        const webgl = glRef.current.getContext();
+        const ext = webgl.getExtension("WEBGL_lose_context");
         ext?.loseContext();
       }
     };
