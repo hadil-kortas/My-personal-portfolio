@@ -7,10 +7,12 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 import { SectionWrapper } from '../hoc';
+import { useTranslation } from 'react-i18next';
 
 // eslint-disable-next-line react/prop-types
 const ServiceCard = ({ index, title, icon }) => {
-  return (
+    const { t } = useTranslation(); {
+      return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
@@ -18,7 +20,6 @@ const ServiceCard = ({ index, title, icon }) => {
         shadow-card'
         >
           <div 
-            // eslint-disable-next-line react/no-unknown-property
             options={{
               max: 45,
               scale: 1,
@@ -29,7 +30,7 @@ const ServiceCard = ({ index, title, icon }) => {
             >
               <img src={icon} alt={title}
               className='w-16 h-16 object-contain'/>
-              <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>  
+              <h3 className='text-white text-[20px] font-bold text-center'>{t(title)}</h3>  
             </div>
 
           
@@ -38,32 +39,29 @@ const ServiceCard = ({ index, title, icon }) => {
     </Tilt>
     
   )
+
+    }
+
+  
 }
 
 
 const About = () => {
-  return (
+  const { t } = useTranslation(); {
+    return (
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}
-        >Intoduction</p>
+        >{t('Introduction')}</p>
         <h2 className={styles.sectionHeadText}
-        >Overview.</h2>
+        >{t('Overview')}.</h2>
       </motion.div>
 
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        I am a passionate full-stack web developer who
-         is dedicated to bringing innovative ideas to life.
-          My journey began with a strong foundation in computer science 
-          and a genuine interest in crafting seamless user experiences.
-           Through school projects and valuable internships, I gained hands-on experience
-            in both front-end and back-end technologies.
-             I enjoy the challenge of turning complex problems into elegant solutions,
-              and my creativity and problem-solving mindset have made me a sought-after professional
-               in the ever-evolving world of web development.
+        {t('Overview Description')}
 
       </motion.p>
 
@@ -76,6 +74,9 @@ const About = () => {
     </>
     
   )
+
+  }
+  
 }
 
 export default SectionWrapper (About, "about")

@@ -5,5 +5,85 @@
   "contact":                 "Contacteer mij",
   "hey": "Hoi, ik ben",
   "Description": "Ik ontwikkel en ontwerp gebruikersinterfaces en webapplicaties met de nadruk op responsieve, toegankelijke en performant ervaringen.",
-  "Download-cv": "CV downloaden"
+  "Download-cv": "CV downloaden",
+  "Introduction": "Introductie",
+  "Overview": "Overzicht",
+  "Overview Description": "Ik ben een gepassioneerde full-stack webontwikkelaar die zich toelegt op het tot leven brengen van innovatieve ideeën. Mijn reis begon met een sterke basis in informatica en een oprechte interesse in het creëren van naadloze gebruikerservaringen. Door schoolprojecten en waardevolle stages heb ik praktische ervaring opgedaan in zowel front-end als back-end technologieën. Ik geniet van de uitdaging om complexe problemen om te zetten in elegante oplossingen, en mijn creativiteit en probleemoplossend vermogen hebben mij een gewilde professional gemaakt in de voortdurend evoluerende wereld van webontwikkeling.",
+  "UI/UX Designer": "UI/UX-ontwerper",
+  "Full Stack Developer": "Full-stack ontwikkelaar",
+  "Backend Developer": "Back-end ontwikkelaar",
+  "Frontend Developer": "Front-end ontwikkelaar",
+  "What I have done so far": "Wat ik tot nu toe heb gedaan",
+  "Work Experience": "Werkervaring",
+  "experiences": {
+    "klerq": {
+      "title": "Full-stack ontwikkelaar",
+      "points": [
+        "Front-end ontwikkeling van de KLERQ SaaS-tooling.",
+        "Robuuste back-end services gebouwd, wat de gegevensbeveiliging en -integriteit verbeterde.",
+        "Gebruiksvriendelijke interfaces ontworpen, waardoor de tevredenheid van gebruikers toenam.",
+        "AI-gestuurde contentverwerking gelanceerd: automatische matter-titel generatie, samenvatting, verbetering, vertaling en anonimisering van inhoud.",
+        "Prioriteiten, taken en binnenkomende bugs beheerd.",
+        "CI/CD-pijplijnen geïntegreerd en Git-workflows gestandaardiseerd (GitLab Actions, geautomatiseerd testen), waardoor wekelijkse deployment-cycli mogelijk zijn en handmatig releasen wordt verminderd.",
+        "React JS, Next JS, Nest JS, Tailwind CSS, Docker, Figma, GitLab, Postman, Visual Studio"
+      ]
+    },
+    "prestige": {
+      "title": "Full-stack ontwikkelaar",
+      "points": [
+        "Ontwikkeling van een HR-audit webapplicatie om naleving van regelgeving en interne HR-beleid te meten en evalueren.",
+        "Implementatie van responsive design en cross-browser compatibiliteit.",
+        "Deelname aan code reviews en constructieve feedback aan andere ontwikkelaars.",
+        "MERN Stack, Figma, Trello, Postman, Visual Studio"
+      ]
+    },
+    "edidact": {
+      "title": "Webontwikkelaar",
+      "points": [
+        "Deelname aan de webontwikkeling van het Edidact-platform, waarmee kinderen van 4 tot 15 jaar op een leuke en autonome manier vakken uit de Zwitserse Romand-school kunnen oefenen.",
+        "Samenwerking met multifunctionele teams (designers, ontwikkelaars) voor hoogwaardige producten.",
+        "Laravel, PHP, Bootstrap, MySQL"
+      ]
+    },
+    "afia": {
+      "title": "Back-end ontwikkelaar",
+      "points": [
+        "Ontwikkeling van een webapplicatie voor tandartspraktijken om de verbinding tussen dokter, personeel en patiënten te verbeteren en de benodigde tijd te verkorten.",
+        "Deelname aan code reviews en constructieve feedback aan andere ontwikkelaars.",
+        "SpringBoot, Java, REST API, Angular JS"
+      ]
+    }
+  },
+  "present": "heden",
+  "My Work": "Mijn werk",
+  "Projects": "Projecten",
+  "Project-introduction": "De volgende projecten tonen mijn vaardigheden en ervaring aan de hand van praktijkvoorbeelden van mijn werk. Elk project wordt kort beschreven met links naar code-repositories en live-demo’s. Het weerspiegelt mijn vermogen om complexe problemen op te lossen, met verschillende technologieën te werken en projecten effectief te beheren.",
+  "projects": {
+    "yellowPage": {
+      "name": "Gele Pagina",
+      "description": "Webgebaseerd platform waarmee gebruikers snel en efficiënt lokale bedrijven en diensten kunnen zoeken en vinden."
+    },
+    "trainingCenter": {
+      "name": "Trainingscentrum",
+      "description": "Webapplicatie ontworpen om het proces van het beheren van trainingsprogramma’s, trainers en aanmeldingen van studenten te stroomlijnen."
+    },
+    "beautyLover": {
+      "name": "Beauty Lover",
+      "description": "Een Android-applicatie voor het efficiënt organiseren en beheren van cosmetica en beautybenodigdheden."
+    },
+    "threads": {
+      "name": "Threads",
+      "description": "Een moderne en veelzijdige webcommunicatie-applicatie ontworpen om gesprekken tussen individuen en organisaties te stroomlijnen en te verbeteren."
+    },
+    "tastySwift": {
+      "name": "TastySwift",
+      "description": "Een webgebaseerde voedselbezorgapplicatie en digitaal platform waarmee gebruikers eten van lokale restaurants kunnen bekijken, selecteren en bestellen, en dat bij hen thuis laten bezorgen."
+    },
+    "taskManagement": {
+      "name": "Taakbeheer",
+      "description": "Een taakbeheerdashboard waarmee deelnemers en beheerders taken, taakstatus en taaktoewijzingen kunnen beheren."
+    }
+  },
+  "Get in touch": "Neem contact op",
+  "Contact": "Contact"
 }

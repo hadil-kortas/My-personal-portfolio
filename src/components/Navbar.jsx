@@ -9,11 +9,10 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();  
   const [ active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState("en"); // Default language
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
  
 
   const handleLanguageChange = (language) => {
-    // Handle language change logic, e.g., store it in a cookie/localStorage
     setSelectedLanguage(language);
     localStorage.setItem('selectedLanguage', language);
     i18n.changeLanguage(language);
@@ -23,7 +22,6 @@ const Navbar = () => {
     { code: "en", label: "English", flag: "🇺🇸" },
     { code: "fr", label: "Français", flag: "🇫🇷" },
     { code: "nl", label: "Dutch", flag: "🇳🇱" },
-    // Add more languages as needed
   ];
 
   useEffect(() => {
@@ -77,7 +75,7 @@ const Navbar = () => {
               ))}
                 <li className="relative inline-block text-secondary text-[18px] ">
             <button
-              onClick={() => setToggle(!toggle)} // Toggle visibility on button click
+              onClick={() => setToggle(!toggle)}
               className="focus:outline-none"
             >
               {languages.find((lang) => lang.code === selectedLanguage).flag}

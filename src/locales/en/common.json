@@ -5,6 +5,89 @@
     "contact": "Contact",
     "hey": "Hi, I’m",
     "Description": "I develop and design user interfaces and web applications with a focus on responsive, accessible, and performant experiences.",
-    "Download-cv": "Download CV "
-    
-  }
+    "Download-cv": "Download CV ",
+    "Introduction": "Introduction",
+    "Overview": "Overview",
+    "Overview Description": "I am a passionate full-stack web developer who is dedicated to bringing innovative ideas to life. My journey began with a strong foundation in computer science and a genuine interest in crafting seamless user experiences. Through school projects and valuable internships, I gained hands-on experience in both front-end and back-end technologies. I enjoy the challenge of turning complex problems into elegant solutions, and my creativity and problem-solving mindset have made me a sought-after professional in the ever-evolving world of web development.",
+    "UI/UX Designer": "UI/UX Designer",
+    "Full Stack Developer": "Full Stack Developer",
+    "Backend Developer": "Backend Developer",
+    "Frontend Developer": "Frontend Developer",
+    "What I have done so far": "What I have done so far",
+    "Work Experience": "Work Experience",
+    "experiences": {
+      "klerq": {
+        "title": "Full stack Developer",
+        "points": [
+          "Frontend development on KLERQ SAAS tooling.",
+          "Built robust backend services, improving data security and integrity.",
+          "Designing user-friendly interfaces, enhancing user satisfaction.",
+          "Launched AI-driven content-processing features—automatic matter-title generation from matter content, summarization, improvement, translation, and anonymization of matter content.",
+          "Managing priorities, tasks and incoming bugs",
+          "Integrated CI/CD pipelines and standardized Git workflows (GitLab Actions, automated testing), enabling weekly deployment cycles and reducing manual release overhead.",
+          "React JS, Next JS, Nest JS, Tailwind CSS, Docker, Figma, GitLab, Postman, Visual Studio"
+        ]
+      },
+      "prestige": {
+        "title": "Full stack Developer",
+        "points": [
+          "Developing web application of an HR audit application aimed at measure and evaluate the company's compliance with regulations and internal human resource policies.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+          "MERN Stack, Figma, Trello, Postman, Visual Studio"
+        ]
+      },
+      "edidact": {
+        "title": "Web Developer",
+        "points": [
+          "Participation in the web development of the Edidact platform. Edidact, the learning platform that allows children aged 4 to 15 years to review all subjects taught at the Swiss Romand School in a fun, autonomous and motivating way for better results.",
+          "Collaborating with cross-functional teams including designers, and other developers to create high-quality products.",
+          "Laravel, PHP, Bootstrap, MySQL"
+        ]
+      },
+      "afia": {
+        "title": "Backend Developer",
+        "points": [
+          "Development of a web-based dental office application to facilitate the connection between the doctor and his staff and to help minimize the efforts of the doctor, staff and patients by reducing the time.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+          "SpringBoot, Java, REST API, Angular JS"
+        ]
+      }
+    },
+    "present": "present",
+    "My Work": "My Work",
+    "Projects": "Projects",
+    "Project-introduction": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+    "projects": {
+      "yellowPage": {
+        "name": "Yellow Page",
+        "description": "Web-based platform that allows users to search and find local businesses and services quickly and efficiently."
+      },
+      "trainingCenter": {
+        "name": "Training Center",
+        "description": "Web application designed to streamline the process of managing training programs, trainers, and student registrations."
+      },
+      "beautyLover": {
+        "name": "Beauty Lover",
+        "description":
+          "A mobile application based on Android for efficiently organizing and managing your makeup products and beauty essentials."
+      },
+      "threads": {
+        "name": "Threads",
+        "description":
+          "A modern and versatile web communication application designed to streamline and enhance conversations among individuals organizations. "
+      },
+      "tastySwift": {
+        "name": "TastySwift",
+        "description": "A web-based food delivery application and a digital platform that enables users to browse, select, and order food from local restaurants and have it delivered to their doorstep "
+      },
+      "taskManagement": {
+        "name": "TaskManagement",
+        "description": "A task management dashboard that enables participants and admins to manage tasks, task status and task assignment"
+      }
+    },
+    "Get in touch": "Get in touch",
+    "Contact": "Contact"
+
+
+}

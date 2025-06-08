@@ -5,5 +5,85 @@
     "contact": "Contactez moi",
     "hey": "Salut, je suis",
     "Description": "Je développe et conçois des interfaces utilisateur et des applications web en mettant l’accent sur des expériences réactives, accessibles et performantes.",
-    "Download-cv": "Télécharger le CV"
+    "Download-cv": "Télécharger le CV",
+    "Introduction": "Introduction",
+    "Overview": "Aperçu",
+    "Overview Description": "Je suis un développeur web full-stack passionné, dédié à donner vie à des idées innovantes. Mon parcours a débuté sur de solides bases en informatique et un intérêt sincère pour la création d’expériences utilisateur fluides. Grâce à des projets scolaires et des stages enrichissants, j’ai acquis une expérience pratique tant dans les technologies front-end que back-end. J’apprécie le défi de transformer des problèmes complexes en solutions élégantes, et ma créativité ainsi que mon esprit d’analyse font de moi un professionnel recherché dans le monde en constante évolution du développement web.",
+    "UI/UX Designer": "Designer UI/UX",
+    "Full Stack Developer": "Développeur Full Stack",
+    "Backend Developer": "Développeur back-end",
+    "Frontend Developer": "Développeur front-end",
+    "What I have done so far": "Ce que j’ai accompli jusqu’à présent",
+    "Work Experience": "Expérience professionnelle",
+    "experiences": {
+      "klerq": {
+        "title": "Développeur Full Stack",
+        "points": [
+          "Développement front-end de l’outil SaaS KLERQ.",
+          "Mise en place de services backend robustes, améliorant la sécurité et l’intégrité des données.",
+          "Conception d’interfaces conviviales, augmentant la satisfaction des utilisateurs.",
+          "Lancement de fonctionnalités de traitement de contenu pilotées par l’IA : génération automatique de titres, résumé, amélioration, traduction et anonymisation du contenu.",
+          "Gestion des priorités, des tâches et des bogues entrants.",
+          "Intégration de pipelines CI/CD et standardisation des workflows Git (GitLab Actions, tests automatisés), permettant des cycles de déploiement hebdomadaires et réduisant la charge manuelle.",
+          "React JS, Next JS, Nest JS, Tailwind CSS, Docker, Figma, GitLab, Postman, Visual Studio"
+        ]
+      },
+      "prestige": {
+        "title": "Développeur Full Stack",
+        "points": [
+          "Développement d’une application RH pour évaluer la conformité de l’entreprise aux règlements et aux politiques internes.",
+          "Mise en page responsive et compatibilité inter-navigateurs.",
+          "Participation aux revues de code et retours constructifs aux autres développeurs.",
+          "MERN Stack, Figma, Trello, Postman, Visual Studio"
+        ]
+      },
+      "edidact": {
+        "title": "Développeur Web",
+        "points": [
+          "Participation au développement de la plateforme Edidact, permettant aux enfants de 4 à 15 ans de réviser de manière ludique les matières de l’école romande suisse.",
+          "Collaboration avec des équipes transverses (designers, développeurs) pour des produits de haute qualité.",
+          "Laravel, PHP, Bootstrap, MySQL"
+        ]
+      },
+      "afia": {
+        "title": "Développeur back-end",
+        "points": [
+          "Développement d’une application web pour cabinet dentaire visant à faciliter la connexion entre le médecin, son personnel et les patients, réduisant le temps et les efforts.",
+          "Participation aux revues de code et retours constructifs aux autres développeurs.",
+          "SpringBoot, Java, API REST, Angular JS"
+        ]
+      }
+    },
+    "present": "à aujourd’hui",
+    "My Work": "Mon travail",
+    "Projects": "Projets",
+    "Project-introduction": "Les projets suivants présentent mes compétences et mon expérience à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et des démos en ligne. Cela reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement des projets.",
+    "projects": {
+      "yellowPage": {
+        "name": "Pages Jaunes",
+        "description": "Plateforme Web permettant aux utilisateurs de rechercher et de trouver rapidement et efficacement des entreprises et des services locaux."
+      },
+      "trainingCenter": {
+        "name": "Centre de formation",
+        "description": "Application Web conçue pour rationaliser la gestion des programmes de formation, des formateurs et des inscriptions des étudiants."
+      },
+      "beautyLover": {
+        "name": "Beauty Lover",
+        "description": "Application mobile Android pour organiser et gérer efficacement vos produits de maquillage et essentiels de beauté."
+      },
+      "threads": {
+        "name": "Threads",
+        "description": "Une application web de communication moderne et polyvalente conçue pour rationaliser et améliorer les échanges entre individus et organisations."
+      },
+      "tastySwift": {
+        "name": "TastySwift",
+        "description": "Application web de livraison de repas et plateforme numérique permettant aux utilisateurs de parcourir, sélectionner et commander des plats auprès de restaurants locaux, et de se les faire livrer à domicile."
+      },
+      "taskManagement": {
+        "name": "Gestion des tâches",
+        "description": "Tableau de bord de gestion des tâches permettant aux participants et aux administrateurs de gérer les tâches, leur statut et leur affectation."
+      }
+    },
+    "Get in touch": "Contactez-moi",
+    "Contact": "Contact"
   }

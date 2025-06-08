@@ -156,67 +156,43 @@ import {
   
   const experiences = [
     {
-      title: "Full stack Developer",
+      id: 'klerq',
       company_name: "KLERQ",  
       icon: klerq,
       iconBg: "rgb(15, 2, 25)",
-      date: "Oct 2024 - present",
-      points: [
-        "Frontend development on KLERQ SAAS tooling.",
-        "Built robust backend services, improving data security and integrity.",
-        "Designing user-friendly interfaces, enhancing user satisfaction.",
-        "Launched AI-driven content-processing features-automatic matter-title generation from matter content, summarization, improvement, translation, and anonymization of matter content.",
-        "Managing priorities, tasks and incoming bugs",
-        "Integrated CI/CD pipelines and standardized Git workflows (GitLab Actions, automated testing), enabling weekly deployment cycles and reducing manual release overhead.",
-        "React JS, Next JS, Nest JS, Tailwind CSS, Docker, Figma, GitLab, Postman, VisualStudio"
-      ],
+      startDate:   '2024-10-01',
+      endDate:     null, 
     },
     {
-      title: "Full stack Developer",
+      id: 'prestige',
       company_name: "Prestige Formation & Consulting",
       icon: prestige,
       iconBg: "rgb(15, 2, 25)",
-      date: "Jun 2023 - Sep 2023",
-      points: [
-        "Developing web application of an HR audit application aimed at measure and evaluate the company's compliance with regulations and internal human resource policies.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "MERN Stack, Figma, Trello, Postman, VisualStudio"
-      ],
+      startDate: '2023-06-01',
+      endDate:   '2023-09-30',
     },
     {
-      title: "Web Developer",
+      id: 'edidact',
       company_name: "Edidact",
       icon: edidact,
       iconBg: "rgb(15, 2, 25)",
-      date: "Jun 2022 - Sep 2022",
-      points: [
-        "Participation in the web development of the Edidact platform. Edidact, the learning platform that allows children aged 4 to 15 years to review all subjects taught at the Swiss Romand School in a fun, autonomous and motivating way for better results.",
-        "Collaborating with cross-functional teams including designers, and other developers to create high-quality products.",
-        "Laravel, PHP, Bootstrap, MySQL"
-      
-      ],
+      startDate: '2022-06-01',
+      endDate:   '2022-09-30',
     },
     {
-      title: "Backend Developer",
+      id: 'afia',
       company_name: "AfiaTech",
       icon: afia,
       iconBg: "rgb(15, 2, 25)",
-      date: "Feb 2021 - Jun 2021",
-      points: [
-        "Development of a web-based dental office application to facilitate the connection between the doctor and his staff and to help minimize the efforts of the doctor, staff and patients by reducing the time.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "SpringBoot, Java, API REST, Angular JS"
-      ],
+      startDate: '2021-02-01',
+      endDate:   '2021-06-30',
     },
   ];
   
   const projects = [
     {
 
-      name: "Yellow Page",
-      description:
-        "Web-based platform that allows users to search and find local businesses and services quickly and efficiently.",
+      id: "yellowPage",
       tags: [
         {
           name: "nodejs",
@@ -241,9 +217,7 @@ import {
       source_code_link: "https://github.com/hadil-kortas/yellow_page",
     },
     {
-      name: "Training Center",
-      description:
-        "Web application  designed to streamline the process of managing training programs, trainers, and student registrations.",
+      id: "trainingCenter",
       tags: [
         {
           name: "php",
@@ -266,9 +240,7 @@ import {
       source_code_link: "https://github.com/hadil-kortas/Gestion-des-formations",
     },
     {
-      name: "Beauty Lover",
-      description:
-        "A mobile application based on Android for efficiently organizing and managing your makeup products and beauty essentials.",
+      id: "beautyLover",
       tags: [
         {
           name: "java",
@@ -284,9 +256,7 @@ import {
       source_code_link: "https://github.com/hadil-kortas/Makeup-Storage",
     },
     {
-      name: "Threads",
-      description:
-        "A modern and versatile web communication application designed to streamline and enhance conversations among individuals organizations. ",
+      id: "threads",
       tags: [
         {
           name: "nextjs13",
@@ -309,8 +279,7 @@ import {
       source_code_link: "https://github.com/hadil-kortas/threads",
     },
     {
-      name: "TastySwift",
-      description: "A web-based food delivery application and a digital platform that enables users to browse, select, and order food from local restaurants and have it delivered to their doorstep ",
+      id: "tastySwift",
       tags: [
         {
           name: "nextjs13",
@@ -334,8 +303,7 @@ import {
     },
 
     {
-      name: "TaskManagement",
-      description: "A task management dashboard that enables participants and admins to manage tasks, task status and task assignment",
+      id: "taskManagement",
       tags: [
         {
           name: "spring boot",

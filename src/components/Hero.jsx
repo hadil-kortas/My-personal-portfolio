@@ -77,6 +77,7 @@ const Hero = () => {
               
               md:w-[100rem]
               ml-20
+              mt-20
             "
           />
 
