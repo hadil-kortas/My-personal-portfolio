@@ -31,9 +31,13 @@ const Hero = () => {
   const { ref, inView } = useInView({ threshold: 0.1 });
   
   const { t, i18n } = useTranslation();
-  const [isDark, setIsDark] = useState(
-      document.documentElement.classList.contains('dark')
-    );
+  // in Hero.jsx & Contact.jsx
+  const [isDark, setIsDark] = useState(() => {
+    const stored = localStorage.getItem('theme');
+    if (stored) return stored === 'dark';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
+
   
     useEffect(() => {
       const obs = new MutationObserver(() => {
@@ -48,9 +52,9 @@ const Hero = () => {
   return (
     <section ref={ref} className="relative w-full h-screen mx-auto">
       {inView && <StarsCanvas
-            starColor={!isDark ? '#290115' : '#f272c8'}
-            starSize={!isDark ? 0.003 : 0.002}
-          />}
+          starColor={!isDark ? '#290115' : '#f272c8'}
+          starSize={!isDark ? 0.003 : 0.002}
+      />}
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-10`}>
         {/* ───────────── Timeline dot & line ───────────── */}
         <div className="flex flex-col justify-center items-center mt-5">

@@ -40,9 +40,11 @@ const ContactCard = ({index ,name, image, source_link}) =>
 const Contact = () => {
   const { ref, inView } = useInView({ threshold: 0.1 });
   const { t } = useTranslation();
-  const [isDark, setIsDark] = useState(
-    document.documentElement.classList.contains('dark')
-  );
+  const [isDark, setIsDark] = useState(() => {
+    const stored = localStorage.getItem('theme');
+    if (stored) return stored === 'dark';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
 
   useEffect(() => {
     const obs = new MutationObserver(() => {
