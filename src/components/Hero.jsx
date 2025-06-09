@@ -6,6 +6,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import { useTranslation } from 'react-i18next';
 import { useInView } from 'react-intersection-observer';
 import StarsCanvas from './canvas/Stars';
+import { useEffect, useState } from 'react';
 
 
 
@@ -29,10 +30,27 @@ const Hero = () => {
   };
   const { ref, inView } = useInView({ threshold: 0.1 });
   
-  const { t, i18n } = useTranslation(); 
+  const { t, i18n } = useTranslation();
+  const [isDark, setIsDark] = useState(
+      document.documentElement.classList.contains('dark')
+    );
+  
+    useEffect(() => {
+      const obs = new MutationObserver(() => {
+        setIsDark(document.documentElement.classList.contains('dark'));
+      });
+      obs.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class'],
+      });
+      return () => obs.disconnect();
+    }, []);
   return (
     <section ref={ref} className="relative w-full h-screen mx-auto">
-      {inView && <StarsCanvas />}
+      {inView && <StarsCanvas
+            starColor={!isDark ? '#290115' : '#f272c8'}
+            starSize={!isDark ? 0.003 : 0.002}
+          />}
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-10`}>
         {/* ───────────── Timeline dot & line ───────────── */}
         <div className="flex flex-col justify-center items-center mt-5">
@@ -42,7 +60,7 @@ const Hero = () => {
 
         {/* ───────────── Left column: Intro text ───────────── */}
         <div>
-         <h1 className={`${styles.heroHeadText} text-white`}>
+         <h1 className={`${styles.heroHeadText} text-primary`}>
             {t('hey')}{' '}
             <span className="text-[#ec008c]">
               <Typewriter
@@ -55,7 +73,7 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-primary`}>
             {t('Description')}
           </p>
 

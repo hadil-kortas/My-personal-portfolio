@@ -4,12 +4,26 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { menu, close } from '../assets';
 import { useTranslation } from 'react-i18next';
+import { Sun, Moon } from 'lucide-react';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();  
   const [ active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState("en");
+  const [theme, setTheme] = useState(
+    localStorage.getItem('theme') || 
+    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+  );
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
+  };
  
 
   const handleLanguageChange = (language) => {
@@ -50,7 +64,7 @@ const Navbar = () => {
             }}
             >
           <div>
-              <p className='text-white text-[18px] font-bold cursor-pointer flex'> Hadil Kortas &nbsp; <span
+              <p className='text-primary text-[18px] font-bold cursor-pointer flex'> Hadil Kortas &nbsp; <span
             className='sm:block hidden'>| {t('FullStack Web Developer')} </span>
             </p>
             {/*<p className='text-white text-[13px]'>kortashadil27@gmail.com</p>*/}
@@ -65,9 +79,9 @@ const Navbar = () => {
                   key={Link.id}
                   className={`${
                     active === Link.title
-                    ? "text-white"
+                    ? "text-primary"
                     : "text-secondary"
-                  } hover:text-white text-[18px] font-medium cursor-pointer`}
+                  } hover:text-primary text-[18px] font-medium cursor-pointer`}
                   onClick={() => setActive(Link.title)}
                   >
 
@@ -100,8 +114,17 @@ const Navbar = () => {
               ))}
             </div>
           </li>
+          <li>
+            <button
+              onClick={toggleTheme}
+              className="p-1 text-secondary hover:text-white"
+              aria-label="Toggle light/dark mode"
+            >
+              {theme === 'dark' ? <Sun size={20}/> : <Moon size={20}/>}
+            </button>
+          </li>
 
-            </ul>
+        </ul>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
               <img 
               src={toggle ? close : menu}
@@ -118,7 +141,7 @@ const Navbar = () => {
                     key={Link.id}
                     className={`${
                       active === Link.title
-                      ? "text-white"
+                      ? "text-primary"
                       : "text-secondary"
                     } font-poppins font-medium
                     cursor-pointer text-[16px]`}

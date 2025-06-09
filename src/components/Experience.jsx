@@ -11,8 +11,10 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
 
 const ExperienceCard = ({ experience }) => {
+  
   const { t, i18n } = useTranslation();
   const expTrans = t(`experiences.${experience.id}`, { returnObjects: true });
   const fmt = (iso) => {
@@ -24,13 +26,16 @@ const ExperienceCard = ({ experience }) => {
     }).format(dt);
   };
   const dateStr = `${fmt(experience.startDate)} – ${fmt(experience.endDate)}`;
+  
   return (
     <VerticalTimelineElement
       contentStyle={{ background: 'rgb(25, 1, 21)', color: '#fff'}}
       contentArrowStyle={{ borderRight: '8px solid rgb(15, 2, 25)'}}
 
       date={dateStr}
+      dateClassName="text-gray-800 dark:text-white"
       iconStyle={{ background: experience.iconBg }}
+      iconClassName="ring-4 ring-black dark:ring-white"
       icon={
 
         <div className="flex justify-center items-center w-full h-full">
@@ -70,6 +75,20 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   const { t } = useTranslation()
+  const [isDark, setIsDark] = useState(
+    document.documentElement.classList.contains("dark")
+  );
+
+  useEffect(() => {
+    const obs = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains("dark"));
+    });
+    obs.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+    return () => obs.disconnect();
+  }, []);
     return (
       <>
       <motion.div variants={textVariant()}>
@@ -82,9 +101,9 @@ const Experience = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline lineColor={isDark ? "#fff" : "#000"} >
           {experiences.map((exp, idx) => (
-            <ExperienceCard key={exp.id} experience={exp} />
+            <ExperienceCard key={exp.id} experience={exp}  />
           ))}
         </VerticalTimeline>
 
