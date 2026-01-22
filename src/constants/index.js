@@ -29,6 +29,7 @@ import {
     linkedin,
     prestige,
     klerq,
+    sanadoc,
     edidact,
     afia,
     yellowpage,
@@ -40,6 +41,7 @@ import {
     kubernetes,
     prometheus,
     grafana,
+    okaybrunch,
     
   } from "../assets";
   
@@ -156,12 +158,20 @@ import {
   
   const experiences = [
     {
+      id: 'sanadoc',
+      company_name: "SANADOC",  
+      icon: sanadoc,
+      iconBg: "rgb(15, 2, 25)",
+      startDate:   '2025-11-01',
+      endDate:     null, 
+    },
+    {
       id: 'klerq',
       company_name: "KLERQ",  
       icon: klerq,
       iconBg: "rgb(15, 2, 25)",
       startDate:   '2024-10-01',
-      endDate:     null, 
+      endDate:     '2025-10-31', 
     },
     {
       id: 'prestige',
@@ -190,6 +200,77 @@ import {
   ];
   
   const projects = [
+    {
+      id: "okayBrunch",
+      tags: [
+        {
+          name: "nextjs",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "blue-text-gradient",
+        },
+        
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: okaybrunch,
+      source_code_link: null,
+    },
+    {
+      id: "threads",
+      tags: [
+        {
+          name: "nextjs13",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "clerk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+      ],
+      image: thread,
+      source_code_link: "https://github.com/hadil-kortas/threads",
+    },
+    {
+      id: "tastySwift",
+      tags: [
+        {
+          name: "nextjs13",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "green-text-gradient",
+        },
+      ],
+      image: tasty,
+      source_code_link: "https://github.com/hadil-kortas/tastyswift",
+    },
     {
 
       id: "yellowPage",
@@ -254,52 +335,6 @@ import {
       ],
       image: makeup,
       source_code_link: "https://github.com/hadil-kortas/Makeup-Storage",
-    },
-    {
-      id: "threads",
-      tags: [
-        {
-          name: "nextjs13",
-          color: "violet-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "clerk",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-      ],
-      image: thread,
-      source_code_link: "https://github.com/hadil-kortas/threads",
-    },
-    {
-      id: "tastySwift",
-      tags: [
-        {
-          name: "nextjs13",
-          color: "violet-text-gradient",
-        },
-        {
-          name: "stripe",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "docker",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "prisma",
-          color: "green-text-gradient",
-        },
-      ],
-      image: tasty,
-      source_code_link: "https://github.com/hadil-kortas/tastyswift",
     },
 
     {

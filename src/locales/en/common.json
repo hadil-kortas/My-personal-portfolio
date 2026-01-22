@@ -16,6 +16,16 @@
     "What I have done so far": "What I have done so far",
     "Work Experience": "Work Experience",
     "experiences": {
+      "sanadoc": {
+        "title": "Full stack Developer",
+        "points": [
+          "Contributed to the development of SanaDoc, a digital healthcare platform for clinics, doctors, and patients, enhancing access to care and streamlining medical communication workflows.",
+          "Built a scalable, high-performance frontend using Next.js (App Router) with a feature-based architecture, ensuring usability, responsiveness, and a clean UX tailored to medical professionals.",
+          "Designing user-friendly interfaces, enhancing user satisfaction.",
+          "Integrated frontend features with a Hono.js REST API, supporting patient management, clinical administration, and user profile functionalities.",
+          "Collaborated within a modern monorepo environment (Turbo + pnpm), enabling efficient development, code and consistency across multiple applications."
+        ]
+      },
       "klerq": {
         "title": "Full stack Developer",
         "points": [
@@ -84,6 +94,10 @@
       "taskManagement": {
         "name": "TaskManagement",
         "description": "A task management dashboard that enables participants and admins to manage tasks, task status and task assignment"
+      },
+      "okayBrunch": {
+        "name": "OkayBrunch",
+        "description": "Okay Brunch is a modern restaurant website with a mini e-commerce shop, featuring a full cart/checkout flow and automated order handling via n8n."
       }
     },
     "Get in touch": "Get in touch",

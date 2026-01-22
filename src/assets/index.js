@@ -41,6 +41,7 @@ import prestige from "./company/Prestige.png";
 import edidact from "./company/Edidact.png";
 import afia from "./company/Afia.png";
 import klerq from "./company/Klerq.png";
+import sanadoc from "./company/Sanadoc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,6 +53,7 @@ import thread from "./thread.png";
 import threads from "./threads.png";
 import tasty from "./tasty.png";
 import task from "./task.png";
+import okaybrunch from "./okaybrunch.png"
 
 
 export {
@@ -96,6 +98,7 @@ export {
   klerq,
   edidact,
   afia,
+  sanadoc,
   yellowpage,
   training,
   makeup,
@@ -103,6 +106,7 @@ export {
   threads,
   tasty,
   task,
+  okaybrunch,
   kubernetes,
   prometheus,
   grafana,
