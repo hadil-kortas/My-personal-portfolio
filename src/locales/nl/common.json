@@ -16,16 +16,17 @@
   "What I have done so far": "Wat ik tot nu toe heb gedaan",
   "Work Experience": "Werkervaring",
   "experiences": {
-    "sanadoc": {
-        "title": "Full stack Developer",
-        "points": [
-          "Bijgedragen aan de ontwikkeling van SanaDoc, een digitaal gezondheidszorgplatform voor klinieken, artsen en patiënten, waardoor de toegang tot zorg werd verbeterd en medische communicatieprocessen werden gestroomlijnd.",
-          "Een schaalbare, high-performance frontend gebouwd met Next.js (App Router) met een functie-gebaseerde architectuur, waarbij gebruiksvriendelijkheid, responsiviteit en een duidelijke UX op maat van medische professionals zijn gegarandeerd.",
-          "Het ontwerpen van gebruiksvriendelijke interfaces, het verbeteren van de gebruikerservaring.",
-          "Geïntegreerde frontendfunctie met een Hono.js REST API, die patiëntbeheer, klinische administratie en gebruikersprofielfunctionaliteiten ondersteunt.",
-          "Samengewerkt binnen een moderne monorepo-omgeving (Turbo + pnpm), wat efficiënte ontwikkeling, code en consistentie over meerdere applicaties mogelijk maakte."
-        ]
-      },
+    "mysuperacademia": {
+      "title": "Full-Stack Engineer",
+      "points": [
+        "Ontwerpen, ontwikkelen en deployen van complete webapplicaties met aandacht voor performance, beveiliging en codekwaliteit.",
+        "End-to-end full-stack ontwikkeling: hoogperformante, gebruikersgerichte frontend-interfaces (Next.js, React, TypeScript) en robuuste backend-diensten (Node.js, Nest.js, REST APIs).",
+        "Ontwerp en integratie van APIs en externe diensten (authenticatie, betaling, e-mail, opslag), met bijzondere aandacht voor de beveiliging en betrouwbaarheid van de stromen.",
+        "Implementatie van productgerichte automatiseringsworkflows (data-inname, transformatie, opslag, generatie van deliverables, notificaties, monitoring en rapportage).",
+        "Ontwikkelen en beheren van AI-gebaseerde functionaliteiten (RAG, APIs, vectorDB), bijdragen aan Cloud/DevOps-deployment en oplossingen documenteren voor onderhoudbaarheid en schaalbaarheid.",
+        "Werken in een agile omgeving, met een hoge mate van autonomie, aandacht voor codekwaliteit en een productgerichte aanpak."
+      ]
+    },
     "klerq": {
       "title": "Full-stack ontwikkelaar",
       "points": [

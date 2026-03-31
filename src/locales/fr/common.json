@@ -16,14 +16,15 @@
     "What I have done so far": "Ce que j’ai accompli jusqu’à présent",
     "Work Experience": "Expérience professionnelle",
     "experiences": {
-      "sanadoc": {
-        "title": "Développeur Full Stack",
+      "mysuperacademia": {
+        "title": "Ingénieure Full-Stack",
         "points": [
-          "Contribué au développement de SanaDoc, une plateforme de santé numérique pour les cliniques, les médecins et les patients, améliorant l'accès aux soins et rationalisant les flux de communication médicale.",
-          "Développé un frontend évolutif et performant avec Next.js (App Router) en utilisant une architecture basée sur les fonctionnalités, garantissant la facilité d'utilisation, la réactivité et une UX claire adaptée aux professionnels de santé.",
-          "Conception d'interfaces conviviales, améliorant la satisfaction des utilisateurs.",
-          "Intégré les fonctionnalités frontend avec une API REST Hono.js, prenant en charge la gestion des patients, l'administration clinique et les fonctionnalités des profils utilisateurs.",
-          "Collaboré au sein d'un environnement monorepo moderne (Turbo + pnpm), permettant un développement efficace, ainsi qu'une cohérence du code et des pratiques à travers plusieurs applications."
+          "Concevoir, développer et déployer des applications web complètes en garantissant performance, sécurité et qualité du code.",
+          "Développement full-stack de bout en bout : interfaces frontend hautes performances et centrées utilisateur (Next.js, React, TypeScript) et services backend robustes (Node.js, Nest.js, REST APIs).",
+          "Conception et intégration d'APIs et de services tiers (authentification, paiement, email, stockage), avec une attention particulière à la sécurité et à la fiabilité des flux.",
+          "Mise en place de workflows d'automatisation orientés produit (ingestion, transformation, stockage de données, génération de livrables, notifications, monitoring et reporting).",
+          "Développement et exploitation de fonctionnalités basées sur l'IA (RAG, APIs, vectorDB), contribution au déploiement Cloud/DevOps et documentation des solutions pour assurer leur maintenabilité et scalabilité.",
+          "Travail en environnement agile, avec un haut niveau d'autonomie, une attention à la qualité du code et une approche orientée produit."
         ]
       },
       "klerq": {

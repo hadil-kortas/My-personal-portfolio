@@ -29,7 +29,7 @@ import {
     linkedin,
     prestige,
     klerq,
-    sanadoc,
+    mysuperacademia,
     edidact,
     afia,
     yellowpage,
@@ -42,7 +42,7 @@ import {
     prometheus,
     grafana,
     okaybrunch,
-    
+
   } from "../assets";
   
   export const navLinks = [
@@ -158,12 +158,12 @@ import {
   
   const experiences = [
     {
-      id: 'sanadoc',
-      company_name: "SANADOC",  
-      icon: sanadoc,
+      id: 'mysuperacademia',
+      company_name: "MY Super Academia",
+      icon: mysuperacademia,
       iconBg: "rgb(15, 2, 25)",
-      startDate:   '2025-11-01',
-      endDate:     null, 
+      startDate:   '2026-02-01',
+      endDate:     null,
     },
     {
       id: 'klerq',

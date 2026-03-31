@@ -41,7 +41,7 @@ import prestige from "./company/Prestige.png";
 import edidact from "./company/Edidact.png";
 import afia from "./company/Afia.png";
 import klerq from "./company/Klerq.png";
-import sanadoc from "./company/Sanadoc.png";
+import mysuperacademia from "./company/MySuperAcademia.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -98,7 +98,7 @@ export {
   klerq,
   edidact,
   afia,
-  sanadoc,
+  mysuperacademia,
   yellowpage,
   training,
   makeup,

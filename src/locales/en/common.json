@@ -16,14 +16,15 @@
     "What I have done so far": "What I have done so far",
     "Work Experience": "Work Experience",
     "experiences": {
-      "sanadoc": {
-        "title": "Full stack Developer",
+      "mysuperacademia": {
+        "title": "Full-Stack Engineer",
         "points": [
-          "Contributed to the development of SanaDoc, a digital healthcare platform for clinics, doctors, and patients, enhancing access to care and streamlining medical communication workflows.",
-          "Built a scalable, high-performance frontend using Next.js (App Router) with a feature-based architecture, ensuring usability, responsiveness, and a clean UX tailored to medical professionals.",
-          "Designing user-friendly interfaces, enhancing user satisfaction.",
-          "Integrated frontend features with a Hono.js REST API, supporting patient management, clinical administration, and user profile functionalities.",
-          "Collaborated within a modern monorepo environment (Turbo + pnpm), enabling efficient development, code and consistency across multiple applications."
+          "Design, develop, and deploy complete web applications while ensuring performance, security, and code quality.",
+          "End-to-end full-stack development: high-performance, user-centered frontend interfaces (Next.js, React, TypeScript) and robust backend services (Node.js, Nest.js, REST APIs).",
+          "Design and integration of APIs and third-party services (authentication, payment, email, storage), with particular attention to the security and reliability of flows.",
+          "Implementation of product-oriented automation workflows (data ingestion, transformation, storage, deliverable generation, notifications, monitoring, and reporting).",
+          "Develop and operate AI-based features (RAG, APIs, vectorDB), contribute to Cloud/DevOps deployment, and document solutions to ensure maintainability and scalability.",
+          "Work in an agile environment, with a high level of autonomy, attention to code quality, and a product-oriented approach."
         ]
       },
       "klerq": {
