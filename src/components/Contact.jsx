@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
+import { EarthCanvas, StarsCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 
 import { slideIn } from "../utils/motion";
@@ -13,7 +13,6 @@ import { contacts } from "../constants";
 import { Tilt } from "react-tilt";
 import { fadeIn } from '../utils/motion';
 import { useInView } from 'react-intersection-observer';
-import StarsCanvas from './canvas/Stars';
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 

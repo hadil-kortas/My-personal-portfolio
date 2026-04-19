@@ -5,7 +5,7 @@ import { picofme } from '../assets';
 import { Typewriter } from 'react-simple-typewriter';
 import { useTranslation } from 'react-i18next';
 import { useInView } from 'react-intersection-observer';
-import StarsCanvas from './canvas/Stars';
+import { StarsCanvas } from './canvas';
 import { useEffect, useState } from 'react';
 
 
