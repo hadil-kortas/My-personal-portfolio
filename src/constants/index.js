@@ -42,6 +42,10 @@ import {
     prometheus,
     grafana,
     okaybrunch,
+    mysuperacademiaProject,
+    montagevideo,
+    popteybrunch,
+    generatepost,
 
   } from "../assets";
   
@@ -200,6 +204,51 @@ import {
   ];
   
   const projects = [
+    {
+      id: "mySuperAcademia",
+      tags: [
+        { name: "next.js 15",   color: "violet-text-gradient" },
+        { name: "nestjs",       color: "pink-text-gradient"   },
+        { name: "postgresql",   color: "blue-text-gradient"   },
+        { name: "stripe",       color: "green-text-gradient"  },
+      ],
+      image: mysuperacademiaProject,
+      source_code_link: null,
+      live_link: "https://mysuperacademia.fr",
+    },
+    {
+      id: "popteyBrunch",
+      tags: [
+        { name: "react 18",     color: "violet-text-gradient" },
+        { name: "medusa.js v2", color: "pink-text-gradient"   },
+        { name: "stripe",       color: "blue-text-gradient"   },
+        { name: "postgresql",   color: "green-text-gradient"  },
+      ],
+      image: popteybrunch,
+      source_code_link: null,
+    },
+    {
+      id: "newsJacking",
+      tags: [
+        { name: "python",    color: "violet-text-gradient" },
+        { name: "fastapi",   color: "pink-text-gradient"   },
+        { name: "n8n",       color: "blue-text-gradient"   },
+        { name: "temporal",  color: "green-text-gradient"  },
+      ],
+      image: montagevideo,
+      source_code_link: null,
+    },
+    {
+      id: "pipelineRSS",
+      tags: [
+        { name: "python",   color: "violet-text-gradient" },
+        { name: "fastapi",  color: "pink-text-gradient"   },
+        { name: "qdrant",   color: "blue-text-gradient"   },
+        { name: "n8n",      color: "green-text-gradient"  },
+      ],
+      image: generatepost,
+      source_code_link: null,
+    },
     {
       id: "okayBrunch",
       tags: [

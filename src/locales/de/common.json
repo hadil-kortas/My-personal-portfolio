@@ -70,6 +70,22 @@
   "Projects":           "Projekte",
   "Project-introduction":"Die folgenden Projekte zeigen meine Fähigkeiten und Erfahrungen anhand von realen Beispielen meiner Arbeit. Jedes Projekt wird kurz beschrieben und enthält Links zu Code-Repositories und Live-Demos. Sie spiegeln meine Fähigkeit wider, komplexe Probleme zu lösen, mit verschiedenen Technologien zu arbeiten und Projekte effektiv zu verwalten.",
   "projects": {
+    "mySuperAcademia": {
+      "name": "My Super Academia",
+      "description": "Full-Stack-Bildungsplattform, die Schüler, Lehrer, Eltern und Organisationen verbindet. Live-Kurse (Daily.co), vollständige Gamifizierung (XP, Abzeichen, Streaks), Stripe-Abonnements, KI-automatisierte Blog-Pipeline (LLaMA 3.3 via Groq) und rollenspezifische Dashboards für 5 Benutzerprofile."
+    },
+    "popteyBrunch": {
+      "name": "Poptey Brunch",
+      "description": "Full-Stack-E-Commerce-Anwendung für ein Pariser Restaurant (42 Rue des Martyrs). Drei-Service-Architektur: Frontend-SPA auf Vercel, Express-API auf Render und Medusa.js-v2-Backend. Stripe-Zahlung, JWT-Authentifizierung, zweisprachige FR/EN-SEO, DSGVO-Cookie-Banner und Brevo-Newsletter."
+    },
+    "newsJacking": {
+      "name": "News-Jacking MVP",
+      "description": "Automatisierte Video-Content-Pipeline für soziale Medien. Upload → KI-Transkription (Whisper) → automatischer Schnitt (Stille entfernen, Entrauschen, Untertitel einbrennen) → LinkedIn 1920×1080 & Instagram 1080×1920 → automatische Veröffentlichung via Postiz. Docker-Stack mit 12 Services und 7 n8n-Workflows."
+    },
+    "pipelineRSS": {
+      "name": "Pipeline RSS → Posts",
+      "description": "4-stufige automatisierte Content-Pipeline: RSS-Aufnahme → KI-Triage (Scoring 0–100 + redaktioneller Winkel) → LinkedIn- & Instagram-Entwurfsgenerierung → Verteilung via Postiz nach menschlicher Validierung. Semantische Deduplizierung mit Qdrant und vollständige Orchestrierung über 7 n8n-Workflows."
+    },
     "yellowPage": {
       "name":        "Gelbe Seiten",
       "description": "Webbasierte Plattform, die es Benutzern ermöglicht, schnell und effizient lokale Unternehmen und Dienstleistungen zu suchen und zu finden."

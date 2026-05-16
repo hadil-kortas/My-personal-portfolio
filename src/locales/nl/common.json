@@ -70,6 +70,22 @@
   "Projects": "Projecten",
   "Project-introduction": "De volgende projecten tonen mijn vaardigheden en ervaring aan de hand van praktijkvoorbeelden van mijn werk. Elk project wordt kort beschreven met links naar code-repositories en live-demo’s. Het weerspiegelt mijn vermogen om complexe problemen op te lossen, met verschillende technologieën te werken en projecten effectief te beheren.",
   "projects": {
+    "mySuperAcademia": {
+      "name": "My Super Academia",
+      "description": "Full-stack educatief platform dat leerlingen, leraren, ouders en organisaties verbindt. Live cursussen (Daily.co), volledige gamificatie (XP, badges, streaks), Stripe-abonnementen, AI-geautomatiseerde blogpipeline (LLaMA 3.3 via Groq) en rolspecifieke dashboards voor 5 gebruikersprofielen."
+    },
+    "popteyBrunch": {
+      "name": "Poptey Brunch",
+      "description": "Full-stack e-commerce applicatie voor een Parijs restaurant (42 Rue des Martyrs). Drie-service-architectuur: frontend SPA op Vercel, Express API op Render en Medusa.js v2-backend. Stripe-betaling, JWT-authenticatie, tweetalige FR/EN SEO, AVG-cookiebanner en Brevo-nieuwsbrief."
+    },
+    "newsJacking": {
+      "name": "News-Jacking MVP",
+      "description": "Geautomatiseerde videocontent-pipeline voor sociale media. Upload → AI-transcriptie (Whisper) → automatische montage (stiltes knippen, ruisonderdrukking, ondertitels inbranden) → LinkedIn 1920×1080 & Instagram 1080×1920 → automatisch publiceren via Postiz. Docker-stack met 12 services en 7 n8n-workflows."
+    },
+    "pipelineRSS": {
+      "name": "Pipeline RSS → Posts",
+      "description": "4-staps geautomatiseerde contentpipeline: RSS-inname → AI-triage (scoring 0-100 + redactionele hoek) → LinkedIn- & Instagram-conceptgeneratie → distributie via Postiz na menselijke validatie. Semantische deduplicatie met Qdrant en volledige orkestratie via 7 n8n-workflows."
+    },
     "yellowPage": {
       "name": "Gele Pagina",
       "description": "Webgebaseerd platform waarmee gebruikers snel en efficiënt lokale bedrijven en diensten kunnen zoeken en vinden."

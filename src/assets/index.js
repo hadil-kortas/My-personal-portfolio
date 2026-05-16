@@ -54,6 +54,10 @@ import threads from "./threads.png";
 import tasty from "./tasty.png";
 import task from "./task.png";
 import okaybrunch from "./okaybrunch.png"
+import mysuperacademiaProject from "./mysuperacademia.png"
+import montagevideo from "./montagevideo.png"
+import popteybrunch from "./popteybrunch.png"
+import generatepost from "./generatepost.png"
 
 
 export {
@@ -107,6 +111,10 @@ export {
   tasty,
   task,
   okaybrunch,
+  mysuperacademiaProject,
+  montagevideo,
+  popteybrunch,
+  generatepost,
   kubernetes,
   prometheus,
   grafana,

@@ -70,6 +70,22 @@
     "Projects": "Projects",
     "Project-introduction": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
     "projects": {
+      "mySuperAcademia": {
+        "name": "My Super Academia",
+        "description": "Full-stack educational platform connecting students, teachers, parents and organisations. Features live video courses (Daily.co), gamification (XP, badges, streaks), Stripe subscriptions, an AI-automated blog pipeline (LLaMA 3.3 via Groq) and role-specific dashboards for 5 user profiles."
+      },
+      "popteyBrunch": {
+        "name": "Poptey Brunch",
+        "description": "Full-stack e-commerce application for a Parisian restaurant (42 Rue des Martyrs). Three-service architecture: frontend SPA on Vercel, Express API on Render and Medusa.js v2 backend. Includes Stripe payments, JWT auth, bilingual FR/EN SEO, GDPR cookie banner and Brevo newsletter."
+      },
+      "newsJacking": {
+        "name": "News-Jacking MVP",
+        "description": "Automated video-content production pipeline for social media. Upload → AI transcription (Whisper) → auto editing (silence cuts, denoising, burn-in subtitles) → LinkedIn 1920×1080 & Instagram 1080×1920 → auto-publish via Postiz. Powered by a 12-service Docker stack and 7 n8n workflows."
+      },
+      "pipelineRSS": {
+        "name": "Pipeline RSS → Posts",
+        "description": "4-step automated content pipeline: RSS ingestion → AI triage (scoring 0-100 + editorial angle) → LinkedIn & Instagram draft generation → distribution via Postiz after human validation. Semantic deduplication with Qdrant and full orchestration through 7 n8n workflows."
+      },
       "yellowPage": {
         "name": "Yellow Page",
         "description": "Web-based platform that allows users to search and find local businesses and services quickly and efficiently."

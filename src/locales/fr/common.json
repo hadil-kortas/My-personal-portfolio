@@ -70,6 +70,22 @@
     "Projects": "Projets",
     "Project-introduction": "Les projets suivants présentent mes compétences et mon expérience à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et des démos en ligne. Cela reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement des projets.",
     "projects": {
+      "mySuperAcademia": {
+        "name": "My Super Academia",
+        "description": "Plateforme éducative full-stack connectant élèves, professeurs, parents et organisations. Cours en direct (Daily.co), gamification complète (XP, badges, streaks), abonnements Stripe, pipeline IA automatisé pour le blog (LLaMA 3.3 via Groq) et tableaux de bord personnalisés pour 5 profils utilisateurs."
+      },
+      "popteyBrunch": {
+        "name": "Poptey Brunch",
+        "description": "Application e-commerce full-stack pour un restaurant parisien (42 Rue des Martyrs). Architecture 3 services : frontend SPA (Vercel), API Express (Render), backend Medusa.js v2 (Render). Paiement Stripe, authentification JWT, site bilingue FR/EN avec SEO, cookie banner RGPD et newsletter Brevo."
+      },
+      "newsJacking": {
+        "name": "News-Jacking MVP",
+        "description": "Pipeline automatisé de production de contenu vidéo pour réseaux sociaux. Upload → transcription IA (Whisper) → montage auto (cut silences, dénoising, sous-titres burn-in) → formats LinkedIn 1920×1080 et Instagram 1080×1920 → publication automatique via Postiz. Stack Docker 12 services + 7 workflows n8n."
+      },
+      "pipelineRSS": {
+        "name": "Pipeline RSS → Posts",
+        "description": "Pipeline de contenu automatisé en 4 étapes : ingestion RSS → triage IA (scoring 0-100 + angle éditorial) → génération de drafts LinkedIn & Instagram → distribution via Postiz après validation humaine. Déduplication sémantique avec Qdrant et orchestration complète via 7 workflows n8n."
+      },
       "yellowPage": {
         "name": "Pages Jaunes",
         "description": "Plateforme Web permettant aux utilisateurs de rechercher et de trouver rapidement et efficacement des entreprises et des services locaux."
