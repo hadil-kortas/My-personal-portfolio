@@ -18,16 +18,17 @@ const ProjectCard = ({ index, id, name, tags, image, source_code_link, live_link
   const proj = t(`projects.${id}`, { returnObjects: true });
 {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75 )} style={{ height: "100%" }}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75 )} style={{ height: "100%" }}
+      onClick={() => live_link && window.open(live_link, "_blank")}
+      className={live_link ? "cursor-pointer" : ""}
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450
         }}
-        className={`bg-tertiary p-5 rounded-2xl w-full flex flex-col h-full ${live_link ? "cursor-pointer" : ""}`}
-        onClick={() => live_link && window.open(live_link, "_blank")}
-
+        className="bg-tertiary p-5 rounded-2xl w-full flex flex-col h-full"
         >
           <div className="relative w-full h-[230px] flex-shrink-0">
             <img
