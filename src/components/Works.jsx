@@ -13,7 +13,7 @@ import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { useTranslation } from "react-i18next";
 
-const ProjectCard = ({ index, id, name, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, id, name, tags, image, source_code_link, live_link }) => {
   const { t } = useTranslation(); 
   const proj = t(`projects.${id}`, { returnObjects: true });
 {
@@ -25,7 +25,8 @@ const ProjectCard = ({ index, id, name, tags, image, source_code_link }) => {
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl w-full flex flex-col h-full"
+        className={`bg-tertiary p-5 rounded-2xl w-full flex flex-col h-full ${live_link ? "cursor-pointer" : ""}`}
+        onClick={() => live_link && window.open(live_link, "_blank")}
 
         >
           <div className="relative w-full h-[230px] flex-shrink-0">

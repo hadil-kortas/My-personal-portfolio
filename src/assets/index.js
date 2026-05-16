@@ -58,6 +58,7 @@ import mysuperacademiaProject from "./mysuperacademia.png"
 import montagevideo from "./montagevideo.png"
 import popteybrunch from "./popteybrunch.png"
 import generatepost from "./generatepost.png"
+import precarre from "./précarré.png"
 
 
 export {
@@ -115,6 +116,7 @@ export {
   montagevideo,
   popteybrunch,
   generatepost,
+  precarre,
   kubernetes,
   prometheus,
   grafana,

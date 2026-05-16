@@ -46,6 +46,7 @@ import {
     montagevideo,
     popteybrunch,
     generatepost,
+    precarre,
 
   } from "../assets";
   
@@ -214,7 +215,19 @@ import {
       ],
       image: mysuperacademiaProject,
       source_code_link: null,
-      live_link: "https://mysuperacademia.fr",
+      live_link: "https://my-super-academia.com/",
+    },
+    {
+      id: "precarre",
+      tags: [
+        { name: "next.js 14",  color: "violet-text-gradient" },
+        { name: "nestjs",      color: "pink-text-gradient"   },
+        { name: "supabase",    color: "blue-text-gradient"   },
+        { name: "claude api",  color: "green-text-gradient"  },
+      ],
+      image: precarre,
+      source_code_link: null,
+      live_link: null,
     },
     {
       id: "popteyBrunch",

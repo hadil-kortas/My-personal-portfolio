@@ -74,6 +74,10 @@
         "name": "My Super Academia",
         "description": "Plateforme éducative full-stack connectant élèves, professeurs, parents et organisations. Cours en direct (Daily.co), gamification complète (XP, badges, streaks), abonnements Stripe, pipeline IA automatisé pour le blog (LLaMA 3.3 via Groq) et tableaux de bord personnalisés pour 5 profils utilisateurs."
       },
+      "precarre": {
+        "name": "Pré Carré",
+        "description": "Plateforme EdTech pour l'enseignement supérieur (écoles d'ingénieurs, BTS, Prépa, universités). Trois moteurs : Mission Engine avec correction IA (Claude Haiku), mentor virtuel socratique et peer review ; Studio Engine pour de vrais projets clients B2B avec facturation Stripe automatique ; Hackathon Engine pour des compétitions en équipe évaluées par des experts."
+      },
       "popteyBrunch": {
         "name": "Poptey Brunch",
         "description": "Application e-commerce full-stack pour un restaurant parisien (42 Rue des Martyrs). Architecture 3 services : frontend SPA (Vercel), API Express (Render), backend Medusa.js v2 (Render). Paiement Stripe, authentification JWT, site bilingue FR/EN avec SEO, cookie banner RGPD et newsletter Brevo."
